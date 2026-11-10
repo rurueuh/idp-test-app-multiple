@@ -13,3 +13,4 @@ its own `source.path` and pushed to the in-cluster private registry.
 ci-test build 2587da6
 buildkit test
 bk retry
+cache hit test
