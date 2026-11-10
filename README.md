@@ -11,3 +11,4 @@ Monorepo test project for the Ruru platform's self-hosted multi-component CI.
 Each subdirectory is built independently by the in-cluster BuildKit builder from
 its own `source.path` and pushed to the in-cluster private registry.
 toggle kaniko-path test
+retry
