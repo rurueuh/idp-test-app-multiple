@@ -8,9 +8,5 @@ Monorepo test project for the Ruru platform's self-hosted multi-component CI.
 | `front/` | Next.js frontend | `registry.v2.rurueuh.fr/idp-test-app-multiple-front` |
 | `worker/` | Java background worker | `registry.v2.rurueuh.fr/idp-test-app-multiple-worker` |
 
-Each subdirectory is built independently by the in-cluster Kaniko builder from
+Each subdirectory is built independently by the in-cluster BuildKit builder from
 its own `source.path` and pushed to the in-cluster private registry.
-ci-test build 2587da6
-buildkit test
-bk retry
-cache hit test
